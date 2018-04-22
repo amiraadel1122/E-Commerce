@@ -1,0 +1,16 @@
+.about{
+  background-image: url(../../images/index/section-bg-4.jpg);
+  width: 100%;
+  height: 500px;
+
+.row{
+  display: flex;
+  // flex-direction: column;
+  height: 500px;
+  align-items: center;
+  .col-sm-6.imeg{
+background-image: url(../../images/index/promo-1.png);
+height: 445px;
+  }
+}
+}

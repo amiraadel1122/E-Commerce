@@ -1,0 +1,27 @@
+.blog {
+  .card-group {
+    .card {
+      border: none;
+
+      .content-details {
+        height: 62%;
+        top: 31%;
+      }
+    }
+
+    hr {
+      border: 1px solid #fcca03;
+      margin: 2px;
+      width: 30px;
+      margin-left: 6px;
+    }
+
+    button {
+      background-color: inherit;
+      border: none;
+      font-weight: bold;
+      font-size: 10px;
+      cursor: pointer;
+    }
+  }
+}

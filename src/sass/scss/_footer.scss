@@ -1,0 +1,36 @@
+footer {
+  font-family: $ralewayFont;
+  background-color:#333;
+  color: #fff;
+  font-size: 16px;
+  hr {
+    border: 1px solid #fcca03;
+    margin: 2px;
+    width: 30px;
+    margin-left: 6px;
+  }
+
+  .footerGallery {
+    margin: 0 0 0 -10px;
+    padding: 0;
+    max-width: 300px;
+
+  }
+ul{
+  li{
+    font-size: 10px;
+  }
+}
+
+.footerGallery.col-3{
+padding: 0 0 10px 10px;    width: 25%;
+    float: left;
+
+}
+}
+.news{
+  display: inline-flex;
+}
+// .footer-bottom {
+//   background-color: #333;
+// }

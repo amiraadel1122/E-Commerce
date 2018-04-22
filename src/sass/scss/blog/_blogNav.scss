@@ -1,0 +1,28 @@
+.header {
+  background-image: url("../../images/blog/section-bg-11.jpg");
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.blogNav {
+  background-color: white;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  padding: 0;
+}
+
+hr {
+  border: 1px solid #fcca03;
+  margin: 2px;
+  width: 30px;
+  margin-left: 6px;
+}

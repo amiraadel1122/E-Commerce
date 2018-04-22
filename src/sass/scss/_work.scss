@@ -1,0 +1,30 @@
+.work {
+  background-image: url("../../images/index/section-bg-19.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+  ul {
+    list-style: none;
+    margin-left: -45px;
+
+    li {
+      display: inline;
+    }
+
+    i.fa {
+      font-size: 20px;
+    }
+  }
+
+  details > summary {
+    list-style: none;
+  }
+
+  details p {
+    margin-left: 30px;
+  }
+
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+}

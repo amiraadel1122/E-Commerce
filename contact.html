@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title></title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dist/css/contact.css">
+</head>
+
+<body>
+
+  <!--- Header Part--->
+  <div class=" blogNav p-2">
+    <nav class="navbar navbar-light  ">
+      <a class="navbar-brand" href="#">
+    <img src="images\index\logo-dark.png"  alt="">
+  </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+  </button>
+    </nav>
+
+  </div>
+  <div class="header mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="News pl-5 col-md-6">
+          <h5 class="text-muted pl-5">Contacts</h5>
+          <h2 class="pl-5">Get in Touch</h2>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--- End Header Part--->
+
+  <!---GET IN TOUCH-->
+  <div id="touch" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center  mt-5 ">
+          <h5 class="mt-5">Contact</h5>
+          <h2>Contact Details</h2>
+          <hr>
+          <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe co eu fu</p>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-lg-4 mr-auto text-center mb-5">
+          <i class="fa fa-envelope-o  mb-3 text-dark"></i>
+          <p class="text-muted">
+            support@gtcreators.com
+          </p>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fa fa-map-marker  mb-3 text-dark"></i>
+          <p class="text-muted">
+            22street,loreamdtnm consectetur23, elit
+          </p>
+        </div>
+
+        <div class="col-lg-4 ml-auto text-center">
+          <i class="fa fa-phone  mb-3 text-dark"></i>
+          <p class="text-muted">+92 3445 654</p>
+        </div>
+
+      </div>
+      <div class="col-lg-8 mx-auto text-center  mt-5 ">
+
+        <h3>Get in Touch</h3>
+        <hr>
+        <p class="text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe co eu fu</p>
+      </div>
+      <div class="container">
+        <form>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01"></label>
+              <input type="text" class="form-control" id="validationDefault01" placeholder="name" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault02"></label>
+              <input type="text" class="form-control" id="validationDefault02" placeholder="email" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault02"></label>
+              <input type="text" class="form-control" id="validationDefault02" placeholder="subject" required>
+            </div>
+
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">SUBMIT</button>
+        </form>
+      </div>
+
+    </div>
+    <!---Map-->
+    <div id="map" class="mt-5"></div>
+    <script>
+      navigator.geolocation.getCurrentPosition(showPosition)
+
+      function showPosition(position) {
+        var lat = position.coords.latitude;
+        var lon = position.coords.longitude;
+
+      }
+      var map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {
+            lat: 30.8070062,
+            lng: 31.001105400000004
+          },
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNTZfD7hypUKWrYlDKk-GTGikF13ig4lU&amp;callback=initMap
+" async="" defer=""></script>
+    <!---End Map-->
+  </div>
+
+  <!--- FOOTER--->
+
+  <footer>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 ">
+          <h4 class="mt-5">About Us</h4>
+          <hr align="left" class="mb-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor laborum.</p>
+          <div class="list">
+            <ul>
+              <li>
+                <i class="fa fa-map-marker pr-2 mb-3 text-light"></i> 120 Swanton St,Melbourne VIc3000,Australia
+              </li>
+              <li>
+                <i class="fa fa-phone pr-2  mb-3 text-light"></i> +9559 669 9669
+              </li>
+              <li>
+                <i class="fa fa-envelope-o pr-2  mb-3 text-light"></i> support@gtcreators.com
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+          <h4 class="mt-5">Recent News</h4>
+          <hr align="left" class="mb-4">
+
+          <ul>
+            <li class="news ">
+              <img src="images/index/img-9.jpg" class="mr-4">
+              <div class="newsText">
+                <span>Mauris vel est porta, viverra orci non</span>
+                <div>14/07/2016</div>
+              </div>
+
+            </li>
+            <li class="news">
+              <img src="images/index/img-10.jpg" class="mr-4">
+              <div class="newsText">
+                <span>Mauris vel est porta, viverra orci non</span>
+                <div>14/07/2016</div>
+              </div>
+
+            </li>
+            <li class="news">
+              <img src="images/index/img-11.jpg" class="mr-4">
+              <div class="newsText">
+                <span>Mauris vel est porta, viverra orci non</span>
+                <div>14/07/2016</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+          <h4 class="mt-5">Our Gallery</h4>
+          <hr align="left" class="mb-4">
+          <div class="row footerGallery mb-2 ">
+            <div class="col-3 ">
+              <img src="images/index/img-01.jpg">
+            </div>
+            <div class="col-3 ">
+              <img src="images/index/img-02.jpg">
+            </div>
+            <div class="col-3 ">
+              <img src="images/index/img-03.jpg">
+            </div>
+            <div class="col-3">
+              <img src="images/index/img-04.jpg">
+            </div>
+
+          </div>
+          <div class="row footerGallery">
+            <div class="col-3">
+              <img src="images/index/img-5.jpg">
+            </div>
+            <div class="col-3">
+              <img src="images/index/img-6.jpg">
+            </div>
+            <div class="col-3">
+              <img src="images/index/img-7.jpg">
+            </div>
+            <div class="col-3">
+              <img src="images/index/img-8.jpg">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="footer-bottom text-center">
+      ©2016 GTC. All rights reserved.
+    </div>
+
+
+  </footer>
+
+  <!-- /END FOOTER -->
+
+  <script src="node_modules/jquery/dist/jquery.min.js">
+  </script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js">
+  </script>
+</body>
+
+</html>

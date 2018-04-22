@@ -1,0 +1,32 @@
+.header {
+  background-image: url("../../images/index/section-bg-1.jpg");
+  background-size: cover;
+  height: 755px;
+
+
+
+  .container {
+    .row{
+      display: flex;
+      align-items: center;
+      height: 590px;
+      .col-md-8 {
+        // margin-top: 100px;
+
+        p {
+          color: #7a7a7a;
+          font-family: Myriad Pro;
+        }
+
+        h1 {
+          padding: 0;
+          font-family: $ralewayFont;
+        }
+
+      }
+    }
+    width: 50%;
+    // text-align: center;
+
+  }
+}

@@ -1,0 +1,41 @@
+
+.header {
+  background-image: url("../../images/portfolioSingle/section-bg-8.jpg");
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.container{
+  .card{
+    border: none;
+  }
+  font-family: $ralewayFont;
+  p{
+    font-size: 14px;
+  }
+.share{
+  display: inline-flex;
+.fa{
+  margin-right: 10px;
+}
+}
+}
+nav{
+
+  border-top:1px solid #f4efef;
+  border-bottom:1px solid #f4efef;
+}
+.page-link:hover {
+  background-color: #fcca03;
+}
+.page-item{
+  margin: 30px;
+}
+
+hr {
+  border: 1px solid #fcca03;
+  margin: 2px;
+  width: 30px;
+  margin-left: 6px;
+}

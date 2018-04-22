@@ -1,0 +1,21 @@
+.header {
+  background-image: url("../../images/portfolio/section-bg-8.jpg");
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.container{
+  font-family: $ralewayFont;
+
+}
+
+.active{
+border-bottom:2px solid #ffc107;
+}
+.card{
+  border:none;
+}
+.centrButtn{
+  display: flex;
+}

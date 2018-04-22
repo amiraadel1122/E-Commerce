@@ -1,0 +1,45 @@
+.latImg {
+  background-image: url("../../images/blog/small-img-1.jpg");
+  height: 200px;
+  background-size: cover;
+}
+
+.gray {
+  border-bottom: 1px solid rgb(216, 205, 205);
+}
+
+.rightCol {
+  .article {
+    display: inline-flex;
+  }
+}
+
+.instaPhoto {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.widgetItem {
+  border: 1px solid #d8d3d3;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 6px;
+  padding: 5px 20px;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.list-group-item:first-child {
+  border-top: 0;
+}
+
+.list-group-item:last-child {
+  border-bottom: 0;
+}
+
+.page-link:hover {
+  background-color: #fcca03;
+}

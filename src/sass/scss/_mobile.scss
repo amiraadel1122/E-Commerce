@@ -1,0 +1,17 @@
+.mobile{
+  .card.mob{
+    border: none;
+  }
+  ul{
+    list-style: none;
+     // text-indent: -.7em;
+    li::before{
+      content: "•";
+      padding-right: 20px;
+      margin-left: -38px;
+      width: 1em;
+      color:  #fcca03;
+    }
+  }
+
+}
