@@ -7,7 +7,7 @@ var sass = require('gulp-sass');
     .pipe(gulp.dest('./dist/'));
 });*/
 gulp.task("sass" , function(){
-  return gulp.src('src/sass/scss/portfolio-single/portfolio-single.scss')
+  return gulp.src('src/sass/scss/aboutUs/aboutUs.scss')
   .pipe(sass())
   .pipe(gulp.dest('dist/css'))
 })
